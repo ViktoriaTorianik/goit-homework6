@@ -682,3 +682,45 @@ border-radius: 50%;
     width: 8px;
     height: 8px;
 }
+/* форма модального вікна */
+.modal-text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+color: var(--headlines-font);
+text-align: center;
+letter-spacing: 0.02em;
+margin-bottom: 16px;
+}
+.size-form{
+    padding: 72px 24px 24px 24px;
+}
+.modal-form{
+width: 360px;
+}
+.line-form{
+ 
+}
+.modal-input{
+  width: 360px; 
+  height: 40px; 
+  border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+}
+.modal-input:hover, .modal-input:focus{
+    border-color: var(--color-brand);
+}
+.modal-lable{
+   display: flex; 
+   flex-direction: column;
+   font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.04em;
+color: var(--customers-icon-color);
+
+}
