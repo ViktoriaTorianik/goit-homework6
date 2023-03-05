@@ -657,11 +657,9 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-modal{
     position: absolute;
-    
     display: flex;
     align-items: center;
     justify-content: center;
-
     top: 24px;
     right: 24px;
     height: 24px;
@@ -669,11 +667,13 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background: #E7E9FC;
 border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 50%;
+cursor: pointer;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-modal:hover, .close-modal:focus{
     background-color: var(--background-color-button);
     fill: var(--secondary-font-color);
-    cursor: pointer;
+    
 }
 .modal-icon{
     width: 8px;
@@ -791,8 +791,8 @@ border-radius: 2px;
 }
 .checkbox-input:checked + .checkbox-icon{
     background-image: url(../images/v-icon.svg);
-    background-color: var(--color-brand);
-    border-color: var(--color-brand);
+    background-color: var(--background-color-button);
+    border-color: var(--background-color-button);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-origin: border-box;
